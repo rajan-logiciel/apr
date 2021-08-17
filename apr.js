@@ -9,7 +9,7 @@ function APR(amount, time, interestRrate) {
 };
 
 
-APR.prototype.getMonthlyAmount = function(first_argument) {
+APR.prototype.getMonthlyAmount = function() {
 	var ir = this.ir
 		time = this.time;
 
